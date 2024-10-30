@@ -1,0 +1,64 @@
+body{
+    background-color: aquamarine;
+}
+.Restaurant{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+h2::first-letter{
+    color: red;
+font-size: 3rem;
+}
+h2::first-line{
+    color: chocolate;
+}
+h1::before{
+    content: "🍲";
+}
+h1::after{
+    content: "🍲";
+}
+h1::selection{ 
+    background-color: hsl(354, 100%, 50%);
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+/* .fooddelyapp{
+font-size: 2rem;
+}
+.fooddelyapp:link{
+    color: red;
+    }
+.fooddelyapp:visited {
+        color:gray;
+    }
+.fooddelyapp:hover{
+    background-color: brown;
+    color: white;
+    
+     }  */
+      
+    a {
+        font-size: 2rem;
+       }
+   a:link {
+        color: red;
+       }
+       a:visited {
+        color: orange;
+       }
+    a:hover {
+        background-color: brown;
+    color: white;
+    text-decoration: none;
+       }
+       
+
+
